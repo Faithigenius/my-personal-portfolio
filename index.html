@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <div class="container">
+        
+    <nav>
+
+
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+            <a href="#" class="logo"> <span>  Richards Faith.</span></a>
+        
+            <ul> 
+                <li><a href="#home">Home</a></li> 
+                <li><a href="#about">About</a></li>
+                <li><a href="#Services">Services</a></li>
+                <li><a href="#My works">My works</a></li>
+                <li><a href="#Contact">Contact</a></li>
+            </ul>
+
+            <!-- <a href="#Contact" class="btn">Contact</a> -->
+    </nav>
+    <section id="home">
+         <img src="./Image/purple shirt.jpg" alt="">
+         <div class="infobox">
+            <h1><span> Hello,I'm Faith</span></h1>
+            <h3> <span>I am a Web Developer</span></h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+                Ut quos sed quibusdam id! Consequuntur magnam facilis aut non
+                 nesciunt corporis, ea voluptates
+                 deserunt placeat in rerum voluptas quasi nobis sequi!
+
+         <div class="btn-box">
+            
+            <div class="btn"><a href="https://wa.link/iuhw2g">Hire me</a></div>
+            <div class="btn">Download CV</div>
+         </div>
+    </section>
+    <hr>
+
+    <section id="about">
+        <div class="aboutbox">
+        <div class="aboutinfo">
+            <h1> <span>About Me</span></h1>
+            <p>Font-web developer by day, Code artist by night.With expertise in HTML5, CSS and JAVASCRIPT,
+                I deliver high-quality, responsive, and scaleable solutions that exceed client expectations.
+                As a front-end developer with a keen eye for design, I excel at crafing visually stunning
+                and user-friendly interfaces. My graphic design skills enable me to create custom graphics
+                and blending element, While my proficiency in MS Word ensures seamless document creation and 
+                editing.
+               <strong> Let's build something amazing together!</strong>
+                 .</p>
+        </div>
+        <h2><span>skills</span></h2>
+        <div class="skills">
+            <ul>
+                <li><span>HTML</span></li>
+                <div class="progressbar">
+                    <div class="html"><span>90%</span></div>
+                </div>
+                <li><span>css</span></li>
+                <div class="progressbar">
+                    <div class="css"><span>86%</span></div>
+                </div>
+                <li><span>Javascript</span></li>
+                <div class="progressbar">
+                    <div class="Javascript"><span>79%</span></div>
+                </div>
+            </ul>
+            <img src="./Image/purple shirt.jpg" alt="">
+        </div>
+        </div>
+        
+    </section>
+    <hr>
+    
+
+    <section id="Services">
+        <h1 class="header"> <span>Services</span></h1>
+
+        <div class="servicescontainer">
+            <div class="box">
+                <img src="./Image/web.jpg" alt=""> 
+                <h1><span>Web Design</span></h1>
+                <p>Elevate your online presence with custom web design solutions, From responsive layouts to engaging
+                    user interfaces, I will help you build a wbsite that resonates with your audience. <br><br> <br> 
+                 <span> <strong> LET'S BUILD YOUR DREAM WEBSITE!</strong></span>
+                </p>
+                   
+            </div>
+
+            <div class="box">
+                <img src="./Image/ms.jpg" alt="">
+                <h1><span>MS Word</span></h1>
+                <p>Elevate your document with professional MS Word solutions. From reports and proposals to resumes
+                    and cover letters, I wil  help you create polished and engaging documents that make a lasting
+                    impression.
+                    <br><br><span> <strong>GET YOUR DOCUMENTS NOTICED!</strong></span>
+
+                </p>
+                     
+            </div>
+
+            <div class="box">
+                <img src="./Image/JUMP.png" alt="">
+                <h1><span>Graphic Design</span></h1>
+                <p>Communicate your mssage with impactful graphic design solutions. From logos and
+                   branding to brochures and socila media assets,
+                   I will help you create visual contebt that captivates your audience   <br><br><br>
+                  <span><strong> BRING YOUR BRAND TO LIFE!</strong></span>
+                </p>
+                     
+            </div>
+        </div>
+    </section>
+    <hr>
+    <section id="My work">
+        <span>My works</span>
+        <div class="carousel-images">
+            <div class="carousel-itemactive">
+                <img src="./Image/JUMP.png" alt="project 1">
+                <div class="carousel-caption">
+                    <h3>project title 1</h3>
+                    <p> hey this is my first project</p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="./Image/web.jpg" alt="project 2">
+                <div class="carousel-caption">
+                    <h3>projexct title 2</h3>
+                    <p>hey this is my second project</p>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="./Image/web.jpg" alt="project 3">
+                <div class="carousel-caption">
+                    <h3>projexct title 3</h3>
+                    <p>hey this is my third project</p>
+                </div>
+            </div>
+
+        </div>
+        <button class="carousel-control prev" onclick="changeslide(-1)">&#10094;</button>
+        <button class="carousel-control next" onclick="changeslide(1)">#10095;</button>
+
+
+
+    </section>
+    
+    <section id="Contact"> 
+        <h1 class="header"> <span>Contact</span></h1>
+        <form action="mailto:richardsfaith@gmail.com" method="post" enctype="text/plain">
+            <div class="inputbox">
+                <span>Full Name</span>
+                <input type="text" id="fullname" required placeholder="Enter Your Full Name">
+            </div>
+
+           <div class="inputbox">
+                <span>Email</span>
+                <input type="Email"  id="Email" required placeholder="Email">
+            </div>
+
+            <div class="inputbox">
+                <span>Message</span>
+                <input type="text"  id="message"   rows="4" required placeholder="Enter Your message">
+            </div>
+            
+            <div class="btn"><input type="Submit"></div>
+        
+        </form> 
+    </section>
+
+    <footer>
+        <div class="colleft">
+            <div class="colbox">
+                <span><i class='bx bx-location-plus' ></i></span>
+                <span>123 sreeet N</span>
+            </div>
+
+            <div class="colbox">
+                <span><i class='bx bx-phone' ></i></span>
+                <span>+2349012458880</span>
+            </div>
+
+            <div class="colbox">
+                <span><i class='bx bx-envelope' ></i></span>
+                <span ><a href="mail to:richardsfaith511@gmail.com"></a>richardsfaith511@gmail.com</span>
+            </div>
+        </div>
+
+
+        <div class="colright">
+            <div class="colbox">
+                <span></span>  
+                <p></p>
+            </div>
+            <div class="socialicons">
+               <span> <i class='bx bxl-linkedin'></i></span>
+               <span><i class='bx bxl-instagram' ></i></span>
+                <span> <i class='bx bxl-facebook-circle' ></i></span>
+
+                
+            </div>
+            <span> &copy; All rights reserved ||Richards Faith </span>
+            
+
+
+    </footer>
+
+    
+</div>
+   <script src="./index.js"></script>
+</body>
+</html>
